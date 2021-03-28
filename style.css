@@ -1,0 +1,127 @@
+* {
+    color: #fff;
+    /* background-color: black; */
+
+
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: pink;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: pink;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+span {
+    background: #fff
+}
+
+
+.avi-bg {
+    background-color: #fff;
+    background-image: url('./static/BelovedLastingElk.gif');
+    background-repeat: no-repeat;
+    background-position: 0 100%, 50%;
+    background-size: 100%, cover;
+    height: 100vh;
+
+}
+
+/* Media QUery for avi-bg 
+
+height : 50vh ;
+remove background position
+
+*/
+img {
+    width: 100%;
+}
+
+.avi-banner {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.avi-full-bg {
+    background-color: black;
+}
+
+.avi-fix {
+    background-color: transparent;
+}
+
+.avi-tour {
+    background-color: black !important;
+}
+
+.text-custom {
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
+}
+
+.text-custom1 {
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    font-size: 56px;
+
+    line-height: 110%;
+    text-shadow: 5px 0px 2px rgb(255 0 255 / 50%), -4px 0px 5px rgb(0 255 191 / 50%), 5px 0px 10px rgb(49 122 255);
+}
+
+.separator {
+    height: 1px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 10%;
+}
+
+.banner-logo {
+    width: 10%;
+    height: 100px !important;
+}
+
+.border-custom {
+    border: 5px 0px 2px rgb(255 0 255 / 50%), -4px 0px 5px rgb(0 255 191 / 50%), 5px 0px 10px rgb(49 122 255);
+    ;
+
+}
+
+.vr-tour {
+    box-shadow: 5px 5px 5px rgb(255 0 255 / 50%), -4px 0px 5px rgb(0 255 191 / 50%), 5px 5px 10px rgb(49 122 255) !important;
+}
+
